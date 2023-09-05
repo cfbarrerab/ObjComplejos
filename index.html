@@ -1,0 +1,44 @@
+<script>
+    var odrdenesPizza = [{
+        "tipo" : "margarita",
+        "tamaño" : "individual",
+        "precio" : 5.67,
+        "toppings" : [
+            "extra queso",
+            "champiñones",
+            "piña"
+        ],
+        "para llevar" : true
+    },
+    {
+        "tipo" : "cuatro quesos",
+        "tamaño" : "familiar",
+        "precio" : 18.34,
+        "toppings" : [
+            "extra queso",
+            "champiñones",
+            "pimenton"
+        ],
+        "para llevar" : false
+        },
+        {
+        "tipo" : "napolitana",
+        "tamaño" : "individual",
+        "precio" : 6.78,
+        "toppings" : [
+            
+        ],
+        "para llevar" : true
+        }
+        ];
+
+        // Para acceder a alguna de las propiedades se usa la notación de impresion de objetos combinada con la de arreglos
+
+        console.log(odrdenesPizza[0]);
+        console.log(odrdenesPizza[1]);
+
+        //Para acceder a una propiedad de un elemento de cada arreglo
+
+        console.log(odrdenesPizza[0]["tipo"]);
+        console.log(odrdenesPizza[0]["toppings"]);
+</script>
